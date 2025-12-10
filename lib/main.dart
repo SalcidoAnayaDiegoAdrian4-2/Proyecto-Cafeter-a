@@ -45,9 +45,9 @@ class MyApp extends StatelessWidget {
             darkTheme: ThemeData.dark(),
             themeMode: themeProvider.themeMode,
             debugShowCheckedModeBanner: false,
-            initialRoute: '/',  // Directamente a HomePage
+            initialRoute: '/',  
             routes: {
-              '/': (context) => const HomePage(),  // No hay splash page
+              '/': (context) => const HomePage(), 
               '/inicio': (context) => const InicioPage(),
               '/configuracion': (context) => const ConfiguraPage(),
               '/contactos': (context) => const ContactosPage(),
